@@ -1,0 +1,24 @@
+@import "color";
+
+.nav-link {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.8rem;
+  color: $text-white;
+}
+
+.header {
+  &__title {
+    font-family: "Roboto Slab";
+    font-size: 3.8rem;
+    color: $text-white;
+    font-weight: 400;
+    text-align: center;
+  }
+  &__sub {
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    color: $text-white;
+    font-style: italic;
+    text-align: center;
+  }
+}

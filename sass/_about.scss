@@ -1,9 +1,25 @@
+@import "font";
+
 // Navigation
 .header {
+  position: relative;
   &__bg {
     background: url("../images/daytime-mountain.jpg") no-repeat center;
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 98%, 0 75%);
     background-size: cover;
     width: 100%;
     height: 85vh;
   }
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.navbar {
 }
