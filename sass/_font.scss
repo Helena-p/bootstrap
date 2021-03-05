@@ -9,7 +9,7 @@
 .header {
   &__title {
     font-family: "Roboto Slab";
-    font-size: 3.8rem;
+    font-size: 3.6rem;
     color: $text-white;
     font-weight: 400;
     text-align: center;
@@ -25,9 +25,9 @@
 
 .title {
   font-family: "Roboto Slab", serif;
-  font-size: 4rem;
+  font-size: 2.6rem;
   color: $text-black;
-  height: 9rem;
+  min-height: 9rem;
 }
 
 .paragraph {

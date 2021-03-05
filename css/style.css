@@ -20,7 +20,7 @@ body {
 
 .header__title {
   font-family: "Roboto Slab";
-  font-size: 3.8rem;
+  font-size: 3.6rem;
   color: #fff;
   font-weight: 400;
   text-align: center; }
@@ -33,9 +33,9 @@ body {
 
 .title {
   font-family: "Roboto Slab", serif;
-  font-size: 4rem;
+  font-size: 2.6rem;
   color: #111;
-  height: 9rem; }
+  min-height: 9rem; }
 
 .paragraph {
   font-family: "Roboto", sans-serif;
@@ -49,7 +49,7 @@ body {
 
 .header__title {
   font-family: "Roboto Slab";
-  font-size: 3.8rem;
+  font-size: 3.6rem;
   color: #fff;
   font-weight: 400;
   text-align: center; }
@@ -62,9 +62,9 @@ body {
 
 .title {
   font-family: "Roboto Slab", serif;
-  font-size: 4rem;
+  font-size: 2.6rem;
   color: #111;
-  height: 9rem; }
+  min-height: 9rem; }
 
 .paragraph {
   font-family: "Roboto", sans-serif;
@@ -79,7 +79,7 @@ body {
     border-bottom-right-radius: 5px;
     background-size: cover;
     width: 100%;
-    height: 85vh; }
+    min-height: 85vh; }
   .header__wrapper {
     position: relative;
     display: flex;
@@ -103,7 +103,7 @@ body {
 
 .header__title {
   font-family: "Roboto Slab";
-  font-size: 3.8rem;
+  font-size: 3.6rem;
   color: #fff;
   font-weight: 400;
   text-align: center; }
@@ -116,9 +116,9 @@ body {
 
 .title {
   font-family: "Roboto Slab", serif;
-  font-size: 4rem;
+  font-size: 2.6rem;
   color: #111;
-  height: 9rem; }
+  min-height: 9rem; }
 
 .paragraph {
   font-family: "Roboto", sans-serif;
@@ -129,8 +129,21 @@ body {
   background: url("../images/black-mountain.jpg") no-repeat center;
   background-size: cover;
   width: 100%;
-  height: 80vh;
-  position: relative; }
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center; }
+  .leaders h2 {
+    color: #fff; }
+  .leaders p {
+    color: #fff; }
+  .leaders__box {
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
 
 .overlay-leaders {
   position: absolute;
@@ -144,7 +157,7 @@ body {
   background-size: cover;
   clip-path: polygon(0 0, 100% 0, 100% 65%, 0% 100%);
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   position: relative; }
 
 .overlay {
@@ -156,19 +169,38 @@ body {
   top: 0;
   left: 0; }
 
+.stories__reports-img {
+  width: 100%;
+  height: auto; }
+.stories__articles-img {
+  width: 80%;
+  height: 80%; }
+.stories__blog-img {
+  width: 100%;
+  height: auto; }
+
 @media screen and (min-width: 750px) {
   .header__wrapper {
     width: 60rem; }
   .header__title {
     font-size: 4.8rem; }
   .header__sub {
-    width: 48rem; } }
+    width: 48rem; }
+
+  .title {
+    font-size: 3rem; }
+
+  .paragraph {
+    font-size: 2rem; } }
 @media screen and (min-width: 900px) {
   .header__wrapper {
     width: 60rem; }
   .header__title {
     font-size: 5rem; }
   .header__sub {
-    width: 48rem; } }
+    width: 48rem; }
+
+  .title {
+    font-size: 3.8rem; } }
 
 /*# sourceMappingURL=style.css.map */
