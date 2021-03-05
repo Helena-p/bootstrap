@@ -11,7 +11,7 @@
 body {
   box-sizing: border-box;
   margin: 1.4rem;
-  background-color: #f3f9ff; }
+  background-color: #fff; }
 
 .nav-link {
   font-family: "Roboto Slab", serif;
@@ -31,6 +31,17 @@ body {
   font-style: italic;
   text-align: center; }
 
+.title {
+  font-family: "Roboto Slab", serif;
+  font-size: 4rem;
+  color: #111;
+  height: 9rem; }
+
+.paragraph {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  color: #111; }
+
 .nav-link {
   font-family: "Roboto Slab", serif;
   font-size: 1.8rem;
@@ -48,33 +59,116 @@ body {
   color: #fff;
   font-style: italic;
   text-align: center; }
+
+.title {
+  font-family: "Roboto Slab", serif;
+  font-size: 4rem;
+  color: #111;
+  height: 9rem; }
+
+.paragraph {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  color: #111; }
 
 .header {
   position: relative; }
   .header__bg {
-    background: url("../images/daytime-mountain.jpg") no-repeat center;
-    clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 98%, 0 75%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url("../images/daytime-mountain.jpg") no-repeat center;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+    border-bottom-right-radius: 5px;
     background-size: cover;
     width: 100%;
     height: 85vh; }
   .header__wrapper {
+    position: relative;
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 90%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); }
 
+.about {
+  min-height: 40vh;
+  display: flex;
+  align-items: center; }
+
+.nav-link {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.8rem;
+  color: #fff; }
+
+.header__title {
+  font-family: "Roboto Slab";
+  font-size: 3.8rem;
+  color: #fff;
+  font-weight: 400;
+  text-align: center; }
+.header__sub {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  color: #fff;
+  font-style: italic;
+  text-align: center; }
+
+.title {
+  font-family: "Roboto Slab", serif;
+  font-size: 4rem;
+  color: #111;
+  height: 9rem; }
+
+.paragraph {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  color: #111; }
+
+.leaders {
+  background: url("../images/black-mountain.jpg") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+  position: relative; }
+
+.overlay-leaders {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  clip-path: polygon(0 50%, 100% 89%, 100% 100%, 0% 100%);
+  width: 100%;
+  height: 100%; }
+
+.stories {
+  background: url("../images/spring-mountain.jpg") no-repeat center;
+  background-size: cover;
+  clip-path: polygon(0 0, 100% 0, 100% 65%, 0% 100%);
+  width: 100%;
+  height: 80vh;
+  position: relative; }
+
+.overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.75);
+  clip-path: polygon(0 0, 100% 0, 100% 65%, 0% 100%);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0; }
+
 @media screen and (min-width: 750px) {
   .header__wrapper {
     width: 60rem; }
   .header__title {
-    font-size: 4.8rem; } }
+    font-size: 4.8rem; }
+  .header__sub {
+    width: 48rem; } }
 @media screen and (min-width: 900px) {
   .header__wrapper {
     width: 60rem; }
   .header__title {
-    font-size: 5rem; } }
+    font-size: 5rem; }
+  .header__sub {
+    width: 48rem; } }
 
 /*# sourceMappingURL=style.css.map */
