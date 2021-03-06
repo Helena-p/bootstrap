@@ -9,6 +9,13 @@
 
 // Media Queries
 
+@media screen and (min-width: 600px) {
+  .creative__design-text {
+    top: 230px;
+    left: 50px;
+  }
+}
+
 // For screens between 750px - 900px
 @media screen and (min-width: 750px) {
   .landing__title {

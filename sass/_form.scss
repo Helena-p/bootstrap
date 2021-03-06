@@ -5,7 +5,28 @@
 .form {
   background-color: $pistage;
   width: 100%;
-  min-height: 40vh;
+  min-height: 50vh;
+  &__container {
+    min-height: 50vh;
+  }
+  label {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.6rem;
+    color: $gray;
+  }
+  input {
+    width: 100%;
+    font-size: 1.6rem;
+  }
+  &-btn {
+    font-size: 1.6rem;
+    padding: 0.5em 1.5em;
+    margin-top: 1rem;
+  }
+  textarea {
+    width: 100%;
+    margin-top: 1.4rem;
+  }
 }
 
 // Footer
