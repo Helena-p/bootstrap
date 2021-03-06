@@ -36,14 +36,14 @@
 // Projects section
 .project {
   width: 100%;
-  height: 70vh;
+  min-height: 70vh;
 
   &__box1 {
     background: linear-gradient(70deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),
       url("../images/male1.jpg") no-repeat center;
     background-size: cover;
     max-width: 100%;
-    height: 70vh;
+    min-height: 70vh;
     display: flex;
     &-text {
       background: rgba(0, 0, 0, 0.5);
@@ -55,10 +55,10 @@
   }
 
   &__box2 {
-    background: url("../images/striped.jpg") no-repeat center;
+    background: url("../images/striped-medium.jpg") no-repeat center;
     background-size: cover;
     max-width: 100%;
-    height: 70vh;
+    min-height: 70vh;
   }
 }
 
@@ -69,11 +69,20 @@
     background-color: $text-black;
     width: 100%;
     min-height: 50vh;
+    align-items: flex-end;
+    &-img {
+      width: 27rem;
+      height: 16.3rem;
+    }
   }
   &__box2 {
     background-color: $pistage;
     width: 100%;
     min-height: 50vh;
+    &-img {
+      max-width: 30rem;
+      max-height: 20rem;
+    }
   }
   &__box3 {
     background: linear-gradient(70deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)),

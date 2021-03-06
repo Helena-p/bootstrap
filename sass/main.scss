@@ -17,6 +17,17 @@
   .small-title {
     font-size: 4rem;
   }
+  .paragraph {
+    font-size: 2.6rem;
+  }
+  .projectOne__box1-img {
+    width: 32rem;
+    height: 21.3rem;
+  }
+  .projectOne__box2-img {
+    max-width: 36rem;
+    max-height: 26rem;
+  }
 }
 
 // For screens between 900px and up
@@ -26,6 +37,9 @@
   }
   .small-title {
     font-size: 5rem;
+  }
+  .paragraph {
+    font-size: 3.4rem;
   }
   .projectOne {
     &__box3 {

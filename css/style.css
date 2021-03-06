@@ -37,7 +37,7 @@ body {
 
 .paragraph {
   font-family: "Roboto", sans-serif;
-  font-size: 3.6rem;
+  font-size: 2.2rem;
   color: #111;
   font-weight: 400;
   text-transform: lowercase;
@@ -76,7 +76,7 @@ body {
 
 .paragraph {
   font-family: "Roboto", sans-serif;
-  font-size: 3.6rem;
+  font-size: 2.2rem;
   color: #111;
   font-weight: 400;
   text-transform: lowercase;
@@ -117,12 +117,12 @@ body {
 
 .project {
   width: 100%;
-  height: 70vh; }
+  min-height: 70vh; }
   .project__box1 {
     background: linear-gradient(70deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url("../images/male1.jpg") no-repeat center;
     background-size: cover;
     max-width: 100%;
-    height: 70vh;
+    min-height: 70vh;
     display: flex; }
     .project__box1-text {
       background: rgba(0, 0, 0, 0.5);
@@ -131,10 +131,10 @@ body {
       align-self: flex-end;
       font-style: italic; }
   .project__box2 {
-    background: url("../images/striped.jpg") no-repeat center;
+    background: url("../images/striped-medium.jpg") no-repeat center;
     background-size: cover;
     max-width: 100%;
-    height: 70vh; }
+    min-height: 70vh; }
 
 .projectOne {
   width: 100%;
@@ -142,11 +142,18 @@ body {
   .projectOne__box1 {
     background-color: #111;
     width: 100%;
-    min-height: 50vh; }
+    min-height: 50vh;
+    align-items: flex-end; }
+    .projectOne__box1-img {
+      width: 27rem;
+      height: 16.3rem; }
   .projectOne__box2 {
     background-color: #b2cecd;
     width: 100%;
     min-height: 50vh; }
+    .projectOne__box2-img {
+      max-width: 30rem;
+      max-height: 20rem; }
   .projectOne__box3 {
     background: linear-gradient(70deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url("../images/leaf.jpg") no-repeat center;
     background-size: cover;
@@ -193,7 +200,7 @@ body {
 
 .paragraph {
   font-family: "Roboto", sans-serif;
-  font-size: 3.6rem;
+  font-size: 2.2rem;
   color: #111;
   font-weight: 400;
   text-transform: lowercase;
@@ -212,13 +219,27 @@ body {
     font-size: 6rem; }
 
   .small-title {
-    font-size: 4rem; } }
+    font-size: 4rem; }
+
+  .paragraph {
+    font-size: 2.6rem; }
+
+  .projectOne__box1-img {
+    width: 32rem;
+    height: 21.3rem; }
+
+  .projectOne__box2-img {
+    max-width: 36rem;
+    max-height: 26rem; } }
 @media screen and (min-width: 900px) {
   .landing__title {
     font-size: 8rem; }
 
   .small-title {
     font-size: 5rem; }
+
+  .paragraph {
+    font-size: 3.4rem; }
 
   .projectOne__box3 {
     justify-content: flex-end; }
