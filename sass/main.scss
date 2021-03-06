@@ -28,6 +28,12 @@
     max-width: 36rem;
     max-height: 26rem;
   }
+  .small-title-white {
+    font-size: 3.6rem;
+  }
+  .small-title-black {
+    font-size: 3.6rem;
+  }
 }
 
 // For screens between 900px and up
@@ -39,7 +45,7 @@
     font-size: 5rem;
   }
   .paragraph {
-    font-size: 3.4rem;
+    font-size: 3.2rem;
   }
   .projectOne {
     &__box3 {

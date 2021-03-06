@@ -1,2 +1,19 @@
 @import "color";
 @import "font";
+@import "color";
+@import "font";
+@import "mixin";
+
+.creative {
+  background-color: $pistage;
+  width: 100%;
+  min-height: 30vh;
+  &__design-img1 {
+    width: 100%;
+    height: auto;
+  }
+  &__design-img2 {
+    width: 100%;
+    height: 90%;
+  }
+}

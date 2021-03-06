@@ -23,7 +23,7 @@
 .about {
   background-color: $pistage;
   width: 100%;
-  min-height: 30vh;
+  min-height: 40vh;
   display: flex;
   align-items: center;
 }
@@ -80,8 +80,8 @@
     width: 100%;
     min-height: 50vh;
     &-img {
-      max-width: 30rem;
-      max-height: 20rem;
+      max-width: 29rem;
+      max-height: 19rem;
     }
   }
   &__box3 {
