@@ -1,1 +1,26 @@
 @import "color";
+
+@mixin small-p-white {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  color: $text-white;
+  font-weight: 300;
+  letter-spacing: 0.8rem;
+}
+
+@mixin small-p-black {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 0.8rem;
+}
+
+@mixin heading {
+  font-family: "Roboto", sans-serif;
+  font-size: 3.6rem;
+  color: $text-white;
+  text-transform: lowercase;
+  font-weight: 400;
+  letter-spacing: 0.8rem;
+}

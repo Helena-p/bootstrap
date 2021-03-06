@@ -4,7 +4,7 @@
 @import "mixin";
 
 @import "about";
-@import "leaders";
+@import "design";
 @import "form";
 
 // Media Queries
@@ -14,11 +14,27 @@
   .landing__title {
     font-size: 6rem;
   }
+  .small-title {
+    font-size: 4rem;
+  }
 }
 
 // For screens between 900px and up
 @media screen and (min-width: 900px) {
   .landing__title {
     font-size: 8rem;
+  }
+  .small-title {
+    font-size: 5rem;
+  }
+  .projectOne {
+    &__box3 {
+      justify-content: flex-end;
+    }
+  }
+  .creative__box {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
   }
 }

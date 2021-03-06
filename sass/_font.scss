@@ -13,12 +13,12 @@
   }
 }
 
-.small-paragraph {
-  font-family: "Roboto", sans-serif;
-  font-size: 1.6rem;
-  text-transform: uppercase;
-  font-weight: 300;
-  letter-spacing: 0.8rem;
+.small-paragraph-white {
+  @include small-p-white;
+}
+
+.small-paragraph-black {
+  @include small-p-black;
 }
 
 .paragraph {
@@ -28,4 +28,7 @@
   font-weight: 400;
   text-transform: lowercase;
   letter-spacing: 0.2rem;
+}
+.small-title {
+  @include heading;
 }

@@ -21,7 +21,14 @@ body {
   text-transform: lowercase;
   text-align: center; }
 
-.small-paragraph {
+.small-paragraph-white {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: 0.8rem; }
+
+.small-paragraph-black {
   font-family: "Roboto", sans-serif;
   font-size: 1.6rem;
   text-transform: uppercase;
@@ -35,6 +42,14 @@ body {
   font-weight: 400;
   text-transform: lowercase;
   letter-spacing: 0.2rem; }
+
+.small-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 3.6rem;
+  color: #fff;
+  text-transform: lowercase;
+  font-weight: 400;
+  letter-spacing: 0.8rem; }
 
 .landing__title {
   font-family: "Roboto", sans-serif;
@@ -45,7 +60,14 @@ body {
   text-transform: lowercase;
   text-align: center; }
 
-.small-paragraph {
+.small-paragraph-white {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: 0.8rem; }
+
+.small-paragraph-black {
   font-family: "Roboto", sans-serif;
   font-size: 1.6rem;
   text-transform: uppercase;
@@ -59,6 +81,14 @@ body {
   font-weight: 400;
   text-transform: lowercase;
   letter-spacing: 0.2rem; }
+
+.small-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 3.6rem;
+  color: #fff;
+  text-transform: lowercase;
+  font-weight: 400;
+  letter-spacing: 0.8rem; }
 
 .landing {
   background: url("../images/greens.jpg") no-repeat center;
@@ -77,7 +107,66 @@ body {
 .about {
   background-color: #b2cecd;
   width: 100%;
-  height: 30vh; }
+  min-height: 30vh;
+  display: flex;
+  align-items: center; }
+
+.about-span {
+  font-style: italic;
+  font-weight: 600; }
+
+.project {
+  width: 100%;
+  height: 70vh; }
+  .project__box1 {
+    background: linear-gradient(70deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url("../images/male1.jpg") no-repeat center;
+    background-size: cover;
+    max-width: 100%;
+    height: 70vh;
+    display: flex; }
+    .project__box1-text {
+      background: rgba(0, 0, 0, 0.5);
+      padding: 0.3em;
+      color: #fff;
+      align-self: flex-end;
+      font-style: italic; }
+  .project__box2 {
+    background: url("../images/striped.jpg") no-repeat center;
+    background-size: cover;
+    max-width: 100%;
+    height: 70vh; }
+
+.projectOne {
+  width: 100%;
+  min-height: 50vh; }
+  .projectOne__box1 {
+    background-color: #111;
+    width: 100%;
+    min-height: 50vh; }
+  .projectOne__box2 {
+    background-color: #b2cecd;
+    width: 100%;
+    min-height: 50vh; }
+  .projectOne__box3 {
+    background: linear-gradient(70deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url("../images/leaf.jpg") no-repeat center;
+    background-size: cover;
+    max-width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+
+.creative__box {
+  width: 50rem;
+  min-height: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around; }
+  .creative__box h3 {
+    text-align: center; }
+  .creative__box .btn {
+    padding: 0.4em 2em; }
 
 .landing__title {
   font-family: "Roboto", sans-serif;
@@ -88,7 +177,14 @@ body {
   text-transform: lowercase;
   text-align: center; }
 
-.small-paragraph {
+.small-paragraph-white {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: 0.8rem; }
+
+.small-paragraph-black {
   font-family: "Roboto", sans-serif;
   font-size: 1.6rem;
   text-transform: uppercase;
@@ -103,11 +199,33 @@ body {
   text-transform: lowercase;
   letter-spacing: 0.2rem; }
 
+.small-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 3.6rem;
+  color: #fff;
+  text-transform: lowercase;
+  font-weight: 400;
+  letter-spacing: 0.8rem; }
+
 @media screen and (min-width: 750px) {
   .landing__title {
-    font-size: 6rem; } }
+    font-size: 6rem; }
+
+  .small-title {
+    font-size: 4rem; } }
 @media screen and (min-width: 900px) {
   .landing__title {
-    font-size: 8rem; } }
+    font-size: 8rem; }
+
+  .small-title {
+    font-size: 5rem; }
+
+  .projectOne__box3 {
+    justify-content: flex-end; }
+
+  .creative__box {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; } }
 
 /*# sourceMappingURL=style.css.map */
