@@ -22,10 +22,12 @@
       width: 48rem;
     }
   }
-  .title {
+  .title__dark,
+  .title__light {
     font-size: 3rem;
   }
-  .paragraph {
+  .paragraph__dark,
+  .paragraph__light {
     font-size: 2rem;
   }
 }
@@ -43,7 +45,8 @@
       width: 48rem;
     }
   }
-  .title {
+  .title__dark,
+  .title__light {
     font-size: 3.8rem;
   }
 }

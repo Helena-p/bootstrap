@@ -31,16 +31,31 @@ body {
   font-style: italic;
   text-align: center; }
 
-.title {
+.title__dark {
   font-family: "Roboto Slab", serif;
   font-size: 2.6rem;
   color: #111;
-  min-height: 9rem; }
+  min-height: 9rem;
+  padding-top: 1em; }
 
-.paragraph {
+.title__light {
+  font-family: "Roboto Slab", serif;
+  font-size: 2.6rem;
+  color: #fff;
+  min-height: 8rem;
+  padding-top: 1em; }
+
+.paragraph__dark {
   font-family: "Roboto", sans-serif;
   font-size: 1.6rem;
-  color: #111; }
+  color: #111;
+  margin-bottom: 1em; }
+
+.paragraph__light {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  color: #fff;
+  margin-bottom: 1em; }
 
 .nav-link {
   font-family: "Roboto Slab", serif;
@@ -60,16 +75,31 @@ body {
   font-style: italic;
   text-align: center; }
 
-.title {
+.title__dark {
   font-family: "Roboto Slab", serif;
   font-size: 2.6rem;
   color: #111;
-  min-height: 9rem; }
+  min-height: 9rem;
+  padding-top: 1em; }
 
-.paragraph {
+.title__light {
+  font-family: "Roboto Slab", serif;
+  font-size: 2.6rem;
+  color: #fff;
+  min-height: 8rem;
+  padding-top: 1em; }
+
+.paragraph__dark {
   font-family: "Roboto", sans-serif;
   font-size: 1.6rem;
-  color: #111; }
+  color: #111;
+  margin-bottom: 1em; }
+
+.paragraph__light {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  color: #fff;
+  margin-bottom: 1em; }
 
 .header {
   position: relative; }
@@ -114,16 +144,31 @@ body {
   font-style: italic;
   text-align: center; }
 
-.title {
+.title__dark {
   font-family: "Roboto Slab", serif;
   font-size: 2.6rem;
   color: #111;
-  min-height: 9rem; }
+  min-height: 9rem;
+  padding-top: 1em; }
 
-.paragraph {
+.title__light {
+  font-family: "Roboto Slab", serif;
+  font-size: 2.6rem;
+  color: #fff;
+  min-height: 8rem;
+  padding-top: 1em; }
+
+.paragraph__dark {
   font-family: "Roboto", sans-serif;
   font-size: 1.6rem;
-  color: #111; }
+  color: #111;
+  margin-bottom: 1em; }
+
+.paragraph__light {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  color: #fff;
+  margin-bottom: 1em; }
 
 .leaders {
   background: url("../images/black-mountain.jpg") no-repeat center;
@@ -133,11 +178,8 @@ body {
   position: relative;
   display: flex;
   align-items: center; }
-  .leaders h2 {
-    color: #fff; }
-  .leaders p {
-    color: #fff; }
   .leaders__box {
+    margin: 0 auto;
     width: 90%;
     background-color: rgba(0, 0, 0, 0.3);
     position: absolute;
@@ -155,7 +197,7 @@ body {
 .stories {
   background: url("../images/spring-mountain.jpg") no-repeat center;
   background-size: cover;
-  clip-path: polygon(0 0, 100% 0, 100% 65%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 61%, 0% 100%);
   width: 100%;
   height: 100vh;
   position: relative; }
@@ -163,7 +205,7 @@ body {
 .overlay {
   position: absolute;
   background-color: rgba(0, 0, 0, 0.75);
-  clip-path: polygon(0 0, 100% 0, 100% 65%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 61%, 0% 100%);
   width: 100%;
   height: 100%;
   top: 0;
@@ -173,8 +215,8 @@ body {
   width: 100%;
   height: auto; }
 .stories__articles-img {
-  width: 80%;
-  height: 80%; }
+  width: 100%;
+  height: auto; }
 .stories__blog-img {
   width: 100%;
   height: auto; }
@@ -187,10 +229,12 @@ body {
   .header__sub {
     width: 48rem; }
 
-  .title {
+  .title__dark,
+  .title__light {
     font-size: 3rem; }
 
-  .paragraph {
+  .paragraph__dark,
+  .paragraph__light {
     font-size: 2rem; } }
 @media screen and (min-width: 900px) {
   .header__wrapper {
@@ -200,7 +244,8 @@ body {
   .header__sub {
     width: 48rem; }
 
-  .title {
+  .title__dark,
+  .title__light {
     font-size: 3.8rem; } }
 
 /*# sourceMappingURL=style.css.map */

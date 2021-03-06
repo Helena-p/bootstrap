@@ -1,4 +1,5 @@
 @import "color";
+@import "mixin";
 
 .nav-link {
   font-family: "Roboto Slab", serif;
@@ -23,15 +24,18 @@
   }
 }
 
-.title {
-  font-family: "Roboto Slab", serif;
-  font-size: 2.6rem;
-  color: $text-black;
-  min-height: 9rem;
+.title__dark {
+  @include title-black;
 }
 
-.paragraph {
-  font-family: "Roboto", sans-serif;
-  font-size: 1.6rem;
-  color: $text-black;
+.title__light {
+  @include title-white;
+}
+
+.paragraph__dark {
+  @include paragraph-black;
+}
+
+.paragraph__light {
+  @include paragraph-white;
 }
