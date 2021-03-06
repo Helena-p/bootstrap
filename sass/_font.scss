@@ -1,41 +1,31 @@
 @import "color";
 @import "mixin";
 
-.nav-link {
-  font-family: "Roboto Slab", serif;
-  font-size: 1.8rem;
-  color: $text-white;
-}
-
-.header {
+.landing {
   &__title {
-    font-family: "Roboto Slab";
-    font-size: 3.6rem;
-    color: $text-white;
-    font-weight: 400;
-    text-align: center;
-  }
-  &__sub {
     font-family: "Roboto", sans-serif;
-    font-size: 2rem;
+    font-size: 4.6rem;
+    font-weight: 400;
+    letter-spacing: 1rem;
     color: $text-white;
-    font-style: italic;
+    text-transform: lowercase;
     text-align: center;
   }
 }
 
-.title__dark {
-  @include title-black;
+.small-paragraph {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 0.8rem;
 }
 
-.title__light {
-  @include title-white;
-}
-
-.paragraph__dark {
-  @include paragraph-black;
-}
-
-.paragraph__light {
-  @include paragraph-white;
+.paragraph {
+  font-family: "Roboto", sans-serif;
+  font-size: 3.6rem;
+  color: $text-black;
+  font-weight: 400;
+  text-transform: lowercase;
+  letter-spacing: 0.2rem;
 }
