@@ -47,16 +47,28 @@
 }
 
 .stories {
-  &__reports-img {
-    width: 100%;
-    height: auto;
+  &__reports {
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    &-img {
+      width: 100%;
+      height: auto;
+    }
   }
-  &__articles-img {
-    width: 100%;
-    height: auto;
+  &__articles {
+    &-img {
+      width: 100%;
+      height: auto;
+    }
   }
-  &__blog-img {
-    width: 100%;
-    height: auto;
+  &__blog {
+    position: absolute;
+    top: -20;
+    right: 0;
+    &-img {
+      width: 100%;
+      height: auto;
+    }
   }
 }
