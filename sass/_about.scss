@@ -1,6 +1,13 @@
 @import "color";
 @import "font";
-@import "mixin";
+
+// Navigation
+.nav-link {
+  font-size: 2rem;
+}
+.navbar-brand {
+  font-size: 2.2rem;
+}
 
 // Landing page section
 .landing {

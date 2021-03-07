@@ -28,13 +28,13 @@
     />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="icon" href="images/favicon-32x32.png">
-    <title>Planning Design</title>
+    <title>planning</title>
   </head>
   <body>
     <header>
       <!-- Navigation -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Planning Design</a>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand ml-5" href="#">planning</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -47,17 +47,17 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav ml-auto mr-5">
             <li class="nav-item active">
-              <a class="nav-link" href="#"
-                >Home <span class="sr-only">(current)</span></a
+              <a class="nav-link" href="#about"
+                >Who we are<span class="sr-only">(current)</span></a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#creative">What we do</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -69,7 +69,7 @@
         <div class="container landing__box">
           <div class="row mx-auto">
             <div class="col-12 col-md-8 mx-auto">
-              <h1 class="landing__title">planning</h1>
+              <h1 class="landing__title mb-5">planning</h1>
               <button
                 type="button"
                 class="btn btn-outline-secondary btn-block landing__btn"
@@ -82,7 +82,7 @@
       </section>
 
       <!-- Project section & About Us -->
-      <section class="container-fluid about">
+      <section class="container-fluid about" id="about">
         <div class="row">
           <div class="col-12 col-md-8 mx-auto text-center">
             <p class="small-paragraph-black">Your digital in-store agency</p>
@@ -166,7 +166,7 @@
         </div>
       </section>
       <!-- Creative Design -->
-      <section class="container-fluid d-flex align-items-center creative">
+      <section class="container-fluid d-flex align-items-center creative" id="creative">
         <div class="row">
           <div class="col-12 col-md-6 text-center">
             <h3 class="small-title-black">creative form <br />in our design</h3>
@@ -205,7 +205,7 @@
       </section>
 
       <!-- Form -->
-      <section class="form">
+      <section class="form" id="contact">
         <div class="container form__container d-flex align-items-center justify-content-center">
           <div class="row">
             <div class="col-sm-10 mx-auto">
@@ -216,14 +216,14 @@
                     <label for="name">Full name</label>
                     <input type="text" class="form-control mb-3 p-2" id="name" name="name" required/>
                     <!-- Email -->
-                <label for="inputPassword5">Password</label>
                   <label for="exampleInputEmail1">Email address</label>
                   <input type="email" class="form-control p-2" id="exampleInputEmail1" aria-describedby="emailHelp">
                   <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                   <!-- Textarea -->
                 <textarea name="message" style="height:100px" placeholder="Place your message here.."></textarea>
+                
                 <button type="reset" class="btn btn-lg btn-outline-danger form-btn">Reset</button>
-                <button type="submit" class="btn btn-lg btn-outline-secondary ml-5 form-btn">Send</button>
+                <button type="submit" class="btn btn-lg btn-outline-secondary ml-5 mr-0 form-btn">Send</button>
               </form>
             </div>
           </div>
