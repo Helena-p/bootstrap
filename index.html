@@ -211,20 +211,15 @@
                 <h3 class="small-title-black">Contact us</h3>
               <form action="#" method="post">
                 <div class="form-group">
+                  <!-- Name -->
                     <label for="name">Full name</label>
-                    <input type="text" class="form-control mb-5 p-2" id="name" name="name" required/>
+                    <input type="text" class="form-control mb-3 p-2" id="name" name="name" required/>
+                    <!-- Email -->
                 <label for="inputPassword5">Password</label>
-                <input
-                  type="password"
-                  id="inputPassword5"
-                  class="form-control mb-5 p-2"
-                  aria-describedby="passwordHelpBlock"
-                />
-                <small id="passwordHelpBlock" class="form-text text-muted">
-                  Your password must be 8-20 characters long, contain letters
-                  and numbers, and must not contain spaces, special characters,
-                  or emoji.
-                </small>
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control p-2" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                  <!-- Textarea -->
                 <textarea name="message" style="height:100px" placeholder="Place your message here.."></textarea>
                 <button type="reset" class="btn btn-lg btn-outline-danger form-btn">Reset</button>
                 <button type="submit" class="btn btn-lg btn-outline-secondary ml-5 form-btn">Send</button>
@@ -237,7 +232,7 @@
       <!-- Footer -->
       <footer class="container-fluid footer">
           <div class="row">
-              <div class="col-8 mx-auto mt-5">
+              <div class="col-8 mx-auto mt-5 text-center mt-5">
                   <address>
                     <p class="footer__address">
                         <i class="fas fa-home"></i> DO 312, LLC 210 N. Justine St. Chicago, IL 60607 <br>
@@ -246,7 +241,7 @@
                        Telephone</i> 0 (800) 555 - 8663
                         </p>
                   </address>
-                  <div class="col-8">
+                  <div class="col-8 mx-auto mt-5">
                     <ul class="footer__links">
                         <li><a href="https://www.facebook.com" target="_blank"> <i class="fab fa-facebook"></i>
                         </a></li>
