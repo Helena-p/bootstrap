@@ -50,7 +50,7 @@
           <ul class="navbar-nav ml-auto mr-5">
             <li class="nav-item px-3 active">
               <a class="nav-link" href="#about"
-                >Who we are</a
+                >Who we are<span class="sr-only">(current)</span></a
               >
             </li>
             <li class="nav-item px-3">
@@ -71,7 +71,7 @@
             <div class="col-12 col-md-8 mx-auto">
               <h1 class="landing__title mb-5">planning</h1>
               <button
-                type="button"
+                type="button" role="button"
                 class="btn btn-outline-secondary btn-block landing__btn"
               >
                 Read more
@@ -124,7 +124,7 @@
                   <img
                     class="projectOne__box1-img"
                     src="images/small-pencils.jpg"
-                    alt="Pencils in a jar"
+                    alt="Pencils in jar"
                   />
                 </div>
                 <div class="col-12 mt-5 col-xl-6">
@@ -156,7 +156,7 @@
             <div class="creative__box">
               <h3 class="small-title-white">new day, new creative things.</h3>
               <button
-                type="button"
+                type="button" role="button"
                 class="btn btn-outline-secondary btn-lg landing__btn"
               >
                 View more
@@ -222,8 +222,8 @@
                   <!-- Textarea -->
                 <textarea name="message" style="height:100px" placeholder="Place your message here.."></textarea>
                 
-                <button type="reset" class="btn btn-lg btn-outline-danger form-btn">Reset</button>
-                <button type="submit" class="btn btn-lg btn-outline-secondary ml-5 mr-0 form-btn">Send</button>
+                <button aria-label="reset" type="reset" class="btn btn-lg btn-outline-danger form-btn">Reset</button>
+                <button aria-label="submit" type="submit" role="button" class="btn btn-lg btn-outline-secondary ml-5 mr-0 form-btn">Send</button>
               </form>
             </div>
           </div>
@@ -236,19 +236,19 @@
               <div class="col-8 mx-auto mt-5 text-center mt-5">
                   <address>
                     <p class="footer__address">
-                        <i class="fas fa-home"></i> DO 312, LLC 210 N. Justine St. Chicago, IL 60607 <br>
-                        <i class="far fa-envelope"></i> planningc@design.com
-                        <i class="fas fa-phone">
+                        <i class="fas fa-home" aria-hidden="true"></i> DO 312, LLC 210 N. Justine St. Chicago, IL 60607 <br>
+                        <i class="far fa-envelope" aria-hidden="true"></i> planningc@design.com
+                        <i class="fas fa-phone" aria-hidden="true">
                        Telephone</i> 0 (800) 555 - 8663
                         </p>
                   </address>
                   <div class="col-8 mx-auto mt-5">
                     <ul class="footer__links">
-                        <li><a href="https://www.facebook.com" target="_blank"> <i class="fab fa-facebook"></i>
+                        <li><a href="https://www.facebook.com" target="_blank"> <i class="fab fa-facebook"></i><span class="sr-only">Facebook</span>
                         </a></li>
-                        <li><a href="https://www.instagram.com" target="_blank"> <i class="fab fa-instagram"></i>
+                        <li><a href="https://www.instagram.com" target="_blank"> <i class="fab fa-instagram"></i><span class="sr-only">Instagram</span>
                         </a></li>
-                        <li><a href="https://www.twitter.com" target="_blank"> <i class="fab fa-twitter"></i>
+                        <li><a href="https://www.twitter.com" target="_blank"> <i class="fab fa-twitter"></i><span class="sr-only">Twitter</span>
                         </a></li>
                     </ul>
                   </div>
