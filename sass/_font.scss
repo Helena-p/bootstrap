@@ -14,11 +14,13 @@
 }
 
 .small-paragraph-white {
-  @include small-p-white;
+  @include small-p;
+  color: $text-white;
 }
 
 .small-paragraph-black {
-  @include small-p-black;
+  @include small-p;
+  color: $text-black;
 }
 
 .paragraph {
@@ -30,9 +32,11 @@
   letter-spacing: 0.2rem;
 }
 .small-title-white {
-  @include heading-white;
+  @include heading;
+  color: $text-white;
 }
 
 .small-title-black {
-  @include heading-black;
+  @include heading;
+  color: $text-black;
 }

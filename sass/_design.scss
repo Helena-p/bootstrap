@@ -1,5 +1,6 @@
 @import "color";
 @import "font";
+@import "mixin";
 
 .creative {
   background-color: $pistage;
@@ -11,16 +12,13 @@
       max-width: 66rem;
     }
     &-img1 {
-      background: url("../images/male-portrait.jpg") no-repeat center;
-      background-size: cover;
-
-      width: 100%;
+      @include creative-img;
+      background-image: url("../images/male-portrait.jpg");
       height: 50rem;
     }
     &-img2 {
-      background: url("../images/zebra.jpg") no-repeat center;
-      background-size: cover;
-      width: 100%;
+      @include creative-img;
+      background-image: url("../images/zebra.jpg");
       height: 50rem;
     }
   }
